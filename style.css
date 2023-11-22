@@ -1,1 +1,40 @@
 /* write your code here */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: rgb(168, 150, 217);
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+h1 {
+    color: #333333;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form label{
+    margin: 10px 0;
+    display: block;
+    width: 100%;
+}
+
+input[type="number"], select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
