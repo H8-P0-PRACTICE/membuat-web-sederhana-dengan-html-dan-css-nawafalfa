@@ -1,1 +1,25 @@
 <!-- write your code here -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pengecekan Pemilu</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pengecekan Umur</h1>
+        <form id="formPengecekan">
+            <p>Masukkan Nama Anda:</p>
+            <input type="text" id="nama" name="nama">
+            
+            <p id="umur">Masukkan Umur Anda:</p>
+            <input type="number" id="umur" name="umur">
+            
+            <button onclick="cekUmur()">Cek Umur</button>
+            <p id="hasilPengecekan"></p>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
